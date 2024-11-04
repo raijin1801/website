@@ -1,0 +1,103 @@
+/* styleService.css */
+
+/* Reset default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+    color: #fff;
+}
+
+/* Header styles */
+header {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent header */
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+header img {
+    width: 100px; /* Adjust logo size */
+    border-radius: 50%; /* Circular logo */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffdd57; /* Accent color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fff; /* Highlight color on hover */
+}
+
+/* Main content styles */
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent section background */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    margin: 0 auto; /* Centering the section */
+}
+
+h2 {
+    color: #ffdd57; /* Accent color for headings */
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none; /* Remove default list style */
+    padding-left: 0;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.1); /* Item background */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+ul li:hover {
+    background: rgba(255, 255, 255, 0.3); /* Highlight on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
